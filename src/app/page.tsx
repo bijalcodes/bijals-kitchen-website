@@ -27,7 +27,7 @@ interface MenuItem {
   halfPrice?: number
   fullPrice?: number
   specialPricing?: string
-  image?: any
+  image?: unknown
   isAvailable?: boolean
   sortOrder?: number
 }
@@ -64,7 +64,7 @@ export default async function Home() {
             </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-2">
-            BIJAL'S KITCHEN
+            BIJAL&apos;S KITCHEN
           </h1>
           <p className="text-xl mb-4">510-579-7729</p>
         </div>
@@ -142,7 +142,7 @@ export default async function Home() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-orange-400 to-yellow-400 text-white py-8 px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold mb-2">BIJAL'S KITCHEN</h3>
+          <h3 className="text-2xl font-bold mb-2">BIJAL&apos;S KITCHEN</h3>
           <p className="text-lg font-semibold">510-579-7729</p>
           <p className="mt-4 text-sm opacity-90">
             Authentic home-style cooking • Fresh ingredients • Made with love
